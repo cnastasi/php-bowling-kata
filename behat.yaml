@@ -1,0 +1,6 @@
+default:
+  suites:
+    bowling:
+      paths: [ "%paths.base%/features/bowling.feature" ]
+      contexts: [BowlingContext]
+

@@ -1,0 +1,32 @@
+{
+  "name": "cnastasi/bowling-kata",
+  "description": "Bowling Kata in php",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "cnastasi",
+      "email": "christian.nastasi@facile.it"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nastasi\\Bowling\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nastasi\\Bowling\\Tests\\Unit\\": "tests/"
+    }
+  },
+  "require": {
+
+  },
+  "require-dev": {
+    "behat/behat": "^3.11",
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "test": "vendor/bin/behat"
+  }
+}
